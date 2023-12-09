@@ -32,14 +32,14 @@ typedef int64_t  s_long_t ;
 # define S_WORD(n)  INT32_C(n)
 # define S_LONG(n)  INT64_C(n)
 
-# define U_BYTE_MIN INT8_MIN
-# define U_BYTE_MAX INT8_MAX
-# define U_HALF_MIN INT16_MIN
-# define U_HALF_MAX INT16_MAX
-# define U_WORD_MIN INT32_MIN
-# define U_WORD_MAX INT32_MAX
-# define U_LONG_MIN INT64_MIN
-# define U_LONG_MAX INT64_MAX
+# define S_BYTE_MIN INT8_MIN
+# define S_BYTE_MAX INT8_MAX
+# define S_HALF_MIN INT16_MIN
+# define S_HALF_MAX INT16_MAX
+# define S_WORD_MIN INT32_MIN
+# define S_WORD_MAX INT32_MAX
+# define S_LONG_MIN INT64_MIN
+# define S_LONG_MAX INT64_MAX
 
 # include "evever.h"
 # include "evecfg.h"
