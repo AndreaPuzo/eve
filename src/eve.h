@@ -43,8 +43,6 @@ typedef int64_t  s_long_t ;
 
 # include "evever.h"
 # include "evecfg.h"
-# include "evelib.h"
-# include "eveenv.h"
 
 # define __EVE__ __EVE_VERSION
 
